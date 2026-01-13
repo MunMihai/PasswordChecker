@@ -1,0 +1,19 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+
+## Build results
+bin/
+obj/
+
+## ASP.NET Core
+appsettings.json
+appsettings.Development.json
+
+## Logs
+*.log
+
+## OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,39 @@
+﻿@model PasswordChecker.MVC.Models.User.CompleteUserProfileViewModel
+
+@{
+    ViewData["Title"] = "Complete Profile";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-3">Complete your profile</h2>
+
+    <form asp-action="CompleteProfile" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" readonly />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Varsta" class="form-label"></label>
+            <input asp-for="Varsta" class="form-control" />
+            <span asp-validation-for="Varsta" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Gen" class="form-label"></label>
+            <select asp-for="Gen" class="form-select">
+                <option value="">Select</option>
+                <option value="M">Masculin</option>
+                <option value="F">Feminin</option>
+            </select>
+            <span asp-validation-for="Gen" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Create Account
+        </button>
+    </form>
+</div>

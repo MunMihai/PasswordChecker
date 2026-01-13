@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8scfsrLXTSQvkobTePnWjPJOp3oSNTvzc4Ik3tOBzzk=",
+  "Source": "PasswordChecker.Server",
+  "BasePath": "_content/PasswordChecker.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

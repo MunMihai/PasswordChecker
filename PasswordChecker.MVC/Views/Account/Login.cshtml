@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Admin Login";
+}
+
+<h2>Autentificare Admin</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Intră</button>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="text-danger mt-2">
+        @ViewData.ModelState.Values.First().Errors.First().ErrorMessage
+    </div>
+}

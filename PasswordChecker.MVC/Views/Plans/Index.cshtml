@@ -1,0 +1,68 @@
+﻿@model IEnumerable<PasswordChecker.MVC.Models.Plan.PlanViewModel>
+
+@{
+    ViewData["Title"] = "Plans";
+}
+
+<h2 class="mb-3">Plans</h2>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-success">
+        + Create New Plan
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No plans found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Name</th>
+                <th class="text-end">Price</th>
+                <th class="text-center">Max checks / day</th>
+                <th class="text-center">Active</th>
+                <th class="text-center" style="width: 160px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var plan in Model)
+            {
+                <tr>
+                    <td>@plan.Name</td>
+                    <td class="text-end">@plan.Price</td>
+                    <td class="text-center">@plan.MaxChecksPerDay</td>
+                    <td class="text-center">
+                        @if (plan.IsActive)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">No</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <div class="btn-group btn-group-sm" role="group">
+                            <a asp-action="Edit"
+                               asp-route-id="@plan.Id"
+                               class="btn btn-outline-primary">
+                                Edit
+                            </a>
+                            <a asp-action="Delete"
+                               asp-route-id="@plan.Id"
+                               class="btn btn-outline-danger">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

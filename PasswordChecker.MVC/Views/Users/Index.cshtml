@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PasswordChecker.MVC.Models.User.UserViewModel>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h2 class="mb-3">Users</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No users found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Email</th>
+                <th class="text-center">Age</th>
+                <th class="text-center">Gender</th>
+                <th class="text-center">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Email</td>
+                    <td class="text-center">@user.Varsta</td>
+                    <td class="text-center">@user.Gen</td>
+                    <td class="text-center">
+                        <span class="badge bg-success">@user.Status</span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

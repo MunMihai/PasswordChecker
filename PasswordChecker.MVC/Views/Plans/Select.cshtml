@@ -1,0 +1,58 @@
+﻿@model IEnumerable<PasswordChecker.MVC.Models.Plan.PlanViewModel>
+
+@{
+    ViewData["Title"] = "Choose Your Plan";
+}
+
+<h2 class="text-center mb-4">Choose Your Plan</h2>
+
+<div class="row justify-content-center">
+    @foreach (var plan in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm @(plan.IsActive ? "border-success" : "")">
+
+                <div class="card-header text-center bg-light">
+                    <h4 class="my-0">@plan.Name</h4>
+                </div>
+
+                <div class="card-body text-center">
+                    <h2 class="card-title pricing-card-title">
+                        @plan.Price <small class="text-muted">/ month</small>
+                    </h2>
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li><strong>@plan.MaxChecksPerDay</strong> password checks / day</li>
+                        <li>
+                            Status:
+                            @if (plan.IsActive)
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Inactive</span>
+                            }
+                        </li>
+                    </ul>
+
+                    @if (!plan.IsActive)
+                    {
+                        <button class="btn btn-outline-secondary w-100" disabled>
+                            Not available
+                        </button>
+                    }
+                    else
+                    {
+                        <a asp-action="Choose"
+                           asp-route-id="@plan.Id"
+                           class="btn btn-success w-100">
+                            Choose Plan
+                        </a>
+                    }
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

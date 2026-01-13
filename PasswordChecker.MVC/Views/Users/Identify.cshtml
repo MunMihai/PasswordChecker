@@ -1,0 +1,26 @@
+﻿@model PasswordChecker.MVC.Models.User.IdentifyUserViewModel
+
+@{
+    ViewData["Title"] = "Get Started";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-3">Get Started</h2>
+    <p class="text-muted">
+        Introdu adresa de email pentru a continua.
+    </p>
+
+    <form asp-action="Identify" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Continue
+        </button>
+    </form>
+</div>
