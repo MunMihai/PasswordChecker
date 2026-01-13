@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PasswordChecker.MVC.Models.Dashboard;
 using PasswordChecker.Server.Services.Interfaces;
 
 namespace PasswordChecker.MVC.Controllers
@@ -30,18 +31,49 @@ namespace PasswordChecker.MVC.Controllers
             var plans = await _planService.GetAllAsync();
             var subscriptions = await _subscriptionService.GetAllAsync();
 
-            ViewBag.UsersTotal = users.Count();
-            ViewBag.UsersActive = users.Count(u => u.Status == "ACTIVE");
-            ViewBag.UsersBlocked = users.Count(u => u.Status == "BLOCKED");
+            var today = DateOnly.FromDateTime(DateTime.UtcNow);
+            var soonLimit = today.AddDays(7);
 
-            ViewBag.PlansTotal = plans.Count();
-            ViewBag.PlansActive = plans.Count(p => p.IsActive);
+            var model = new DashboardViewModel
+            {
+                Users = new UserStats
+                {
+                    Total = users.Count(),
+                    Active = users.Count(u => u.Status == "ACTIVE"),
+                    Blocked = users.Count(u => u.Status == "BLOCKED")
+                },
 
-            ViewBag.SubscriptionsTotal = subscriptions.Count();
-            ViewBag.SubscriptionsActive = subscriptions.Count(s => s.Status == "ACTIVE");
-            ViewBag.SubscriptionsInactive = subscriptions.Count(s => s.Status != "ACTIVE");
+                Subscriptions = new SubscriptionStats
+                {
+                    Total = subscriptions.Count(),
 
-            return View();
+                    Active = subscriptions.Count(s =>
+                        s.Status == "ACTIVE" &&
+                        (!s.EndDate.HasValue || s.EndDate.Value >= today)),
+
+                    Expired = subscriptions.Count(s =>
+                        s.Status == "EXPIRED" ||
+                        (s.EndDate.HasValue && s.EndDate.Value < today)),
+
+                    ExpiringSoon = subscriptions.Count(s =>
+                        s.Status == "ACTIVE" &&
+                        s.EndDate.HasValue &&
+                        s.EndDate.Value >= today &&
+                        s.EndDate.Value <= soonLimit)
+                },
+
+                Plans = new PlanStats
+                {
+                    Total = plans.Count(),
+                    UsageByPlan = subscriptions
+                        .GroupBy(s => s.PlanName)
+                        .ToDictionary(g => g.Key, g => g.Count())
+                }
+            };
+
+            return View(model);
         }
+
+
     }
 }

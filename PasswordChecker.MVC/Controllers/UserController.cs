@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PasswordChecker.MVC.Models.User;
 using PasswordChecker.Server.DTOs.User;
+using PasswordChecker.Server.Services;
 using PasswordChecker.Server.Services.Interfaces;
 
 namespace PasswordChecker.MVC.Controllers
@@ -18,10 +19,6 @@ namespace PasswordChecker.MVC.Controllers
         {
             _userService = userService;
         }
-
-        // =========================
-        // ADMIN CRUD
-        // =========================
 
         public async Task<IActionResult> Index()
         {
@@ -89,7 +86,6 @@ namespace PasswordChecker.MVC.Controllers
                 return View(model);
             }
         }
-
 
         public async Task<IActionResult> Edit(Guid id)
         {
@@ -164,121 +160,120 @@ namespace PasswordChecker.MVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
-        // =========================
-        // TEMP CLIENT FLOW (va fi mutat în API)
-        // =========================
-
-        public IActionResult Identify()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Identify(IdentifyUserViewModel model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var user = await _userService.GetByEmailAsync(model.Email);
-
-            if (user != null)
-            {
-                SetSession(user);
-                return RedirectToAction("Dashboard");
-            }
-
-            TempData["Email"] = model.Email;
-            return RedirectToAction("CompleteProfile");
-        }
-
-        public IActionResult CompleteProfile()
-        {
-            var email = TempData["Email"] as string;
-            if (string.IsNullOrEmpty(email))
-                return RedirectToAction("Identify");
-
-            return View(new CompleteUserProfileViewModel { Email = email });
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CompleteProfile(CompleteUserProfileViewModel model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var user = await _userService.CreateAsync(new CreateUserDto
-            {
-                Email = model.Email,
-                Varsta = model.Varsta,
-                Gen = model.Gen
-            });
-
-            SetSession(user);
-            return RedirectToAction("Dashboard");
-        }
-
-        public async Task<IActionResult> Dashboard()
-        {
-            var userIdString = HttpContext.Session.GetString("UserId");
-            if (string.IsNullOrEmpty(userIdString))
-                return RedirectToAction("Identify");
-
-            var user = await _userService.GetByIdAsync(Guid.Parse(userIdString));
-            if (user == null)
-            {
-                HttpContext.Session.Clear();
-                return RedirectToAction("Identify");
-            }
-
-            return View(new UserViewModel
-            {
-                Email = user.Email,
-                Varsta = user.Varsta,
-                Gen = user.Gen,
-                Status = user.Status,
-                Balance = user.Balance
-            });
-        }
-
-        public IActionResult AddBalance()
-        {
-            if (HttpContext.Session.GetString("UserId") == null)
-                return RedirectToAction("Identify");
-
-            return View(new AddBalanceViewModel());
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddBalance(AddBalanceViewModel model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var userIdString = HttpContext.Session.GetString("UserId");
-            if (string.IsNullOrEmpty(userIdString))
-                return RedirectToAction("Identify");
-
-            await _userService.AddBalanceAsync(Guid.Parse(userIdString), model.Amount);
-
-            TempData["SuccessMessage"] = "Balance updated successfully!";
-            return RedirectToAction("Dashboard");
-        }
-
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Clear();
-            return RedirectToAction("Index", "Home");
-        }
-
-        private void SetSession(UserDto user)
-        {
-            HttpContext.Session.SetString("UserId", user.Id.ToString());
-            HttpContext.Session.SetString("UserEmail", user.Email);
-            HttpContext.Session.SetString("UserRole", user.Role);
-        }
     }
 }
+//// =========================
+//// TEMP CLIENT FLOW (va fi mutat în API)
+//// =========================
+
+//public IActionResult Identify()
+//{
+//    return View();
+//}
+
+//[HttpPost]
+//[ValidateAntiForgeryToken]
+//public async Task<IActionResult> Identify(IdentifyUserViewModel model)
+//{
+//    if (!ModelState.IsValid)
+//        return View(model);
+
+//    var user = await _userService.GetByEmailAsync(model.Email);
+
+//    if (user != null)
+//    {
+//        SetSession(user);
+//        return RedirectToAction("Dashboard");
+//    }
+
+//    TempData["Email"] = model.Email;
+//    return RedirectToAction("CompleteProfile");
+//}
+
+//public IActionResult CompleteProfile()
+//{
+//    var email = TempData["Email"] as string;
+//    if (string.IsNullOrEmpty(email))
+//        return RedirectToAction("Identify");
+
+//    return View(new CompleteUserProfileViewModel { Email = email });
+//}
+
+//[HttpPost]
+//[ValidateAntiForgeryToken]
+//public async Task<IActionResult> CompleteProfile(CompleteUserProfileViewModel model)
+//{
+//    if (!ModelState.IsValid)
+//        return View(model);
+
+//    var user = await _userService.CreateAsync(new CreateUserDto
+//    {
+//        Email = model.Email,
+//        Varsta = model.Varsta,
+//        Gen = model.Gen
+//    });
+
+//    SetSession(user);
+//    return RedirectToAction("Dashboard");
+//}
+
+//public async Task<IActionResult> Dashboard()
+//{
+//    var userIdString = HttpContext.Session.GetString("UserId");
+//    if (string.IsNullOrEmpty(userIdString))
+//        return RedirectToAction("Identify");
+
+//    var user = await _userService.GetByIdAsync(Guid.Parse(userIdString));
+//    if (user == null)
+//    {
+//        HttpContext.Session.Clear();
+//        return RedirectToAction("Identify");
+//    }
+
+//    return View(new UserViewModel
+//    {
+//        Email = user.Email,
+//        Varsta = user.Varsta,
+//        Gen = user.Gen,
+//        Status = user.Status,
+//        Balance = user.Balance
+//    });
+//}
+
+//public IActionResult AddBalance()
+//{
+//    if (HttpContext.Session.GetString("UserId") == null)
+//        return RedirectToAction("Identify");
+
+//    return View(new AddBalanceViewModel());
+//}
+
+//[HttpPost]
+//[ValidateAntiForgeryToken]
+//public async Task<IActionResult> AddBalance(AddBalanceViewModel model)
+//{
+//    if (!ModelState.IsValid)
+//        return View(model);
+
+//    var userIdString = HttpContext.Session.GetString("UserId");
+//    if (string.IsNullOrEmpty(userIdString))
+//        return RedirectToAction("Identify");
+
+//    await _userService.AddBalanceAsync(Guid.Parse(userIdString), model.Amount);
+
+//    TempData["SuccessMessage"] = "Balance updated successfully!";
+//    return RedirectToAction("Dashboard");
+//}
+
+//public IActionResult Logout()
+//{
+//    HttpContext.Session.Clear();
+//    return RedirectToAction("Index", "Home");
+//}
+
+//private void SetSession(UserDto user)
+//{
+//    HttpContext.Session.SetString("UserId", user.Id.ToString());
+//    HttpContext.Session.SetString("UserEmail", user.Email);
+//    HttpContext.Session.SetString("UserRole", user.Role);
+//}

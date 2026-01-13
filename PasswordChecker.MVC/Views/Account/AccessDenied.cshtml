@@ -1,2 +1,21 @@
-﻿<h2>Acces restricționat</h2>
-<p>Nu aveți drepturi pentru această secțiune.</p>
+﻿@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger text-center">
+        <h2 class="mb-3">Access Denied</h2>
+
+        <p>
+            You do not have permission to access this section.
+        </p>
+
+        <p class="text-muted">
+            If you believe this is an error, please contact the system administrator.
+        </p>
+
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-3">
+            Return to Home
+        </a>
+    </div>
+</div>

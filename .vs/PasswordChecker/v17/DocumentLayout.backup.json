@@ -3,192 +3,28 @@
   "WorkspaceRootPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\subscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\subscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\planscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\planscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\plans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\plans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\dashboard\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\dashboard\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\subscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\subscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\subscriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\subscriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\subscription\\subscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\subscription\\subscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\subscription\\editsubscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\subscription\\editsubscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\subscription\\createsubscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\subscription\\createsubscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\interfaces\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\interfaces\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\dtos\\subscription\\createsubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\dtos\\subscription\\createsubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\dtos\\subscription\\updatesubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\dtos\\subscription\\updatesubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\dtos\\subscription\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\dtos\\subscription\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\identifyuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\identifyuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\completeuserprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\completeuserprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\passwordchecker.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\passwordchecker.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\identify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\identify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\models\\user\\addbalanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\models\\user\\addbalanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.mvc\\views\\users\\addbalance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A1DEF98-61CD-4B74-9B48-809169CCB808}|PasswordChecker.MVC\\PasswordChecker.MVC.csproj|solutionrelative:passwordchecker.mvc\\views\\users\\addbalance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -198,69 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Create.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Subscriptions\\Create.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Create.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Subscriptions\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Plans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Plans\\Edit.cshtml",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Plans\\Edit.cshtml",
+              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Plans\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T18:05:59.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T10:51:57.833Z",
+              "WhenOpened": "2026-01-13T20:37:21.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SubscriptionController.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\SubscriptionController.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Controllers\\SubscriptionController.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\SubscriptionController.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Controllers\\SubscriptionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:42:29.668Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T20:27:58.197Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Program.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Program.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:32:26.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlansController.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\PlansController.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Controllers\\PlansController.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\PlansController.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Controllers\\PlansController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T10:31:28.196Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T20:04:00.745Z",
               "EditorCaption": ""
             },
             {
@@ -271,508 +83,34 @@
               "RelativeDocumentMoniker": "PasswordChecker.MVC\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PasswordChecker.MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T10:34:49.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T10:55:26.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Index.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Subscriptions\\Index.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Index.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Subscriptions\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:43:13.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Index.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:22:31.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAmwDwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:23:05.276Z",
+              "WhenOpened": "2026-01-13T20:02:03.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:47:45.008Z",
-              "EditorCaption": ""
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Dashboard\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\Dashboard\\DashboardViewModel.cs",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Dashboard\\DashboardViewModel.cs",
+              "RelativeToolTip": "PasswordChecker.MVC\\Models\\Dashboard\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T20:01:15.188Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Controllers\\UserController.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:14:11.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SubscriptionsRepository.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\SubscriptionsRepository.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\SubscriptionsRepository.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\SubscriptionsRepository.cs",
-              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\SubscriptionsRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:26:04.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SubscriptionService.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\SubscriptionService.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\SubscriptionService.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\SubscriptionService.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\Services\\SubscriptionService.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAlwFwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:38:46.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Subscriptions\\Edit.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Subscriptions\\Edit.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Subscriptions\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:43:40.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateSubscriptionViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\CreateSubscriptionViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\Subscription\\CreateSubscriptionViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\CreateSubscriptionViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\Subscription\\CreateSubscriptionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:52:09.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SubscriptionViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\SubscriptionViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\Subscription\\SubscriptionViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\SubscriptionViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\Subscription\\SubscriptionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:59:37.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EditSubscriptionViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\EditSubscriptionViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\Subscription\\EditSubscriptionViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\Subscription\\EditSubscriptionViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\Subscription\\EditSubscriptionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T18:00:26.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CreateSubscriptionDto.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\CreateSubscriptionDto.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\DTOs\\Subscription\\CreateSubscriptionDto.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\CreateSubscriptionDto.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\DTOs\\Subscription\\CreateSubscriptionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:49:50.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ISubscriptionService.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\Interfaces\\ISubscriptionService.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\Interfaces\\ISubscriptionService.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\Interfaces\\ISubscriptionService.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\Services\\Interfaces\\ISubscriptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:24:07.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ISubscriptionRepository.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
-              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:24:41.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:30:00.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SubscriptionDto.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\SubscriptionDto.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\DTOs\\Subscription\\SubscriptionDto.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\SubscriptionDto.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\DTOs\\Subscription\\SubscriptionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:36:21.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UpdateSubscriptionDto.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\UpdateSubscriptionDto.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\DTOs\\Subscription\\UpdateSubscriptionDto.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\Subscription\\UpdateSubscriptionDto.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\DTOs\\Subscription\\UpdateSubscriptionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:37:47.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\UserService.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\UserService.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\Services\\UserService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:31:49.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CreateUserViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\CreateUserViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\CreateUserViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\CreateUserViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\CreateUserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T11:54:58.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CompleteUserProfileViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\CompleteUserProfileViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\CompleteUserProfileViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\CompleteUserProfileViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\CompleteUserProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:16:38.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EditUserViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\EditUserViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\EditUserViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\EditUserViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\EditUserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T11:55:25.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IdentifyUserViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\IdentifyUserViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\IdentifyUserViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\IdentifyUserViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\IdentifyUserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:15:27.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CompleteProfile.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\CompleteProfile.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\CompleteProfile.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\CompleteProfile.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\CompleteProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:45:07.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Create.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:00:01.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:00:22.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Details.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Details.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Details.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:01:21.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PlanRepository.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\PlanRepository.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\PlanRepository.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\PlanRepository.cs",
-              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\PlanRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T02:19:32.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Delete.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Delete.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Delete.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T17:00:52.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:24:01.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PlanService.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\PlanService.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\PlanService.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\PlanService.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\Services\\PlanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:34:42.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:24:32.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\UserViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\UserViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\UserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:26:56.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "PasswordChecker.BL.csproj",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\PasswordChecker.BL.csproj",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
-              "RelativeToolTip": "PasswordChecker.Server\\PasswordChecker.BL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-13T10:18:23.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\DTOs\\User\\UserDto.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\User\\UserDto.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\DTOs\\User\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:30:37.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Account\\AccessDenied.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Account\\AccessDenied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T10:56:14.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Identify.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Identify.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Identify.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Identify.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Identify.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:44:34.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\Dashboard.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\Dashboard.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T01:46:38.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "AddBalance.cshtml",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\AddBalance.cshtml",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Views\\Users\\AddBalance.cshtml",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Views\\Users\\AddBalance.cshtml",
-              "RelativeToolTip": "PasswordChecker.MVC\\Views\\Users\\AddBalance.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T03:25:18.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AddBalanceViewModel.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\AddBalanceViewModel.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.MVC\\Models\\User\\AddBalanceViewModel.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\Models\\User\\AddBalanceViewModel.cs",
-              "RelativeToolTip": "PasswordChecker.MVC\\Models\\User\\AddBalanceViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:22:22.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\User\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "PasswordChecker.Server\\DTOs\\User\\CreateUserDto.cs",
-              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\DTOs\\User\\CreateUserDto.cs",
-              "RelativeToolTip": "PasswordChecker.Server\\DTOs\\User\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:31:02.123Z"
+              "WhenOpened": "2026-01-13T19:53:05.502Z"
             }
           ]
         }

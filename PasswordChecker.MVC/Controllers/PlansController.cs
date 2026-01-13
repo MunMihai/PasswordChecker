@@ -175,35 +175,33 @@ namespace PasswordChecker.MVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
-        // Mai jos trebuie de trecut pe API
-        //[NonAction]
-        public async Task<IActionResult> Select()
-        {
-            var plans = await _planService.GetAllAsync();
-
-            var viewModels = plans.Select(p => new PlanViewModel
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Price = p.Price,
-                MaxChecksPerDay = p.MaxChecksPerDay,
-                IsActive = p.IsActive
-            });
-
-            return View(viewModels);
-        }
-        //[NonAction]
-        [HttpPost]
-        public async Task<IActionResult> Choose(Guid id)
-        {
-            // aici vei lega planul de utilizator
-            // ex: _subscriptionService.Subscribe(userId, id);
-
-            TempData["SuccessMessage"] = "Plan selected successfully!";
-            return RedirectToAction(nameof(Select));
-        }
-
-
     }
 }
+
+//// Mai jos trebuie de trecut pe API
+////[NonAction]
+//public async Task<IActionResult> Select()
+//{
+//    var plans = await _planService.GetAllAsync();
+
+//    var viewModels = plans.Select(p => new PlanViewModel
+//    {
+//        Id = p.Id,
+//        Name = p.Name,
+//        Price = p.Price,
+//        MaxChecksPerDay = p.MaxChecksPerDay,
+//        IsActive = p.IsActive
+//    });
+
+//    return View(viewModels);
+//}
+////[NonAction]
+//[HttpPost]
+//public async Task<IActionResult> Choose(Guid id)
+//{
+//    // aici vei lega planul de utilizator
+//    // ex: _subscriptionService.Subscribe(userId, id);
+
+//    TempData["SuccessMessage"] = "Plan selected successfully!";
+//    return RedirectToAction(nameof(Select));
+//}

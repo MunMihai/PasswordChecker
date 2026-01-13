@@ -2,20 +2,32 @@
     ViewData["Title"] = "Admin Login";
 }
 
-<h2>Autentificare Admin</h2>
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-sm" style="width: 380px;">
+        <div class="card-body">
+            <h4 class="card-title text-center mb-4">Admin Login</h4>
 
-<form method="post">
-    <div class="form-group">
-        <label>Email</label>
-        <input type="email" name="email" class="form-control" required />
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email"
+                           name="email"
+                           class="form-control"
+                           placeholder="admin@example.com"
+                           required />
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                    Sign in
+                </button>
+            </form>
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger mt-3 mb-0 text-center">
+                    @ViewData.ModelState.Values.First().Errors.First().ErrorMessage
+                </div>
+            }
+        </div>
     </div>
-
-    <button type="submit" class="btn btn-primary mt-2">Intră</button>
-</form>
-
-@if (!ViewData.ModelState.IsValid)
-{
-    <div class="text-danger mt-2">
-        @ViewData.ModelState.Values.First().Errors.First().ErrorMessage
-    </div>
-}
+</div>

@@ -1,54 +1,109 @@
-﻿@{
-    ViewData["Title"] = "Dashboard";
-}
+﻿@model PasswordChecker.MVC.Models.Dashboard.DashboardViewModel
 
-<h2 class="mb-4">Dashboard</h2>
+<h2 class="mb-1">Dashboard</h2>
+<p class="text-muted mb-4">System overview & subscription health</p>
+<div class="row text-center mb-4">
+    <div class="col">
+        <div class="fw-semibold">Users</div>
+        <div class="fs-4">@Model.Users.Total</div>
+        <small class="text-success">@Model.Users.Active active</small>
+    </div>
 
-<div class="row g-4">
+    <div class="col">
+        <div class="fw-semibold">Subscriptions</div>
+        <div class="fs-4">@Model.Subscriptions.Total</div>
+        <small class="text-warning">@Model.Subscriptions.ExpiringSoon expiring</small>
+    </div>
 
-    <!-- USERS -->
-    <div class="col-md-4">
-        <div class="card shadow-sm border-start border-primary border-4">
-            <div class="card-body">
-                <h6 class="text-muted">Total Users</h6>
-                <h3>@ViewBag.UsersTotal</h3>
-                <small class="text-success">
-                    Active: @ViewBag.UsersActive
-                </small><br />
-                <small class="text-danger">
-                    Blocked: @ViewBag.UsersBlocked
-                </small>
+    <div class="col">
+        <div class="fw-semibold">Expired</div>
+        <div class="fs-4 text-danger">@Model.Subscriptions.Expired</div>
+        <small class="text-muted">inactive</small>
+    </div>
+
+    <div class="col">
+        <div class="fw-semibold">Plans</div>
+        <div class="fs-4">@Model.Plans.Total</div>
+    </div>
+</div>
+<div class="row mb-4">
+
+    <div class="col-md-6">
+        <div class="border rounded p-3">
+            <h6 class="mb-3">Subscription status</h6>
+            <div style="max-width: 320px; margin: 0 auto;">
+                <canvas id="subStatusChart" height="140"></canvas>
             </div>
         </div>
     </div>
 
-    <!-- PLANS -->
-    <div class="col-md-4">
-        <div class="card shadow-sm border-start border-success border-4">
-            <div class="card-body">
-                <h6 class="text-muted">Plans</h6>
-                <h3>@ViewBag.PlansTotal</h3>
-                <small class="text-success">
-                    Active: @ViewBag.PlansActive
-                </small>
-            </div>
-        </div>
-    </div>
-
-    <!-- SUBSCRIPTIONS -->
-    <div class="col-md-4">
-        <div class="card shadow-sm border-start border-warning border-4">
-            <div class="card-body">
-                <h6 class="text-muted">Subscriptions</h6>
-                <h3>@ViewBag.SubscriptionsTotal</h3>
-                <small class="text-success">
-                    Active: @ViewBag.SubscriptionsActive
-                </small><br />
-                <small class="text-muted">
-                    Inactive / Expired: @ViewBag.SubscriptionsInactive
-                </small>
+    <div class="col-md-6">
+        <div class="border rounded p-3">
+            <h6 class="mb-3">Plan usage</h6>
+            <div style="max-width: 360px; margin: 0 auto;">
+                <canvas id="planUsageChart" height="150"></canvas>
             </div>
         </div>
     </div>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    new Chart(document.getElementById('subStatusChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Active', 'Expiring soon', 'Expired'],
+            datasets: [{
+                data: [
+    @Model.Subscriptions.Active,
+    @Model.Subscriptions.ExpiringSoon,
+    @Model.Subscriptions.Expired
+                ],
+                backgroundColor: ['#198754', '#ffc107', '#dc3545']
+            }]
+        },
+        options: {
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('planUsageChart'), {
+        type: 'bar',
+        data: {
+            labels: [
+    @Html.Raw(string.Join(",", Model.Plans.UsageByPlan.Keys.Select(p => $"'{p}'")))
+            ],
+            datasets: [{
+                data: [
+    @string.Join(",", Model.Plans.UsageByPlan.Values)
+                ],
+                backgroundColor: '#0d6efd'
+            }]
+        },
+        options: {
+            plugins: { legend: { display: false } }
+        }
+    });
+</script>
+<h6 class="mt-4">Plan details</h6>
+
+<table class="table table-sm table-hover">
+    <thead>
+        <tr>
+            <th>Plan</th>
+            <th>Subscriptions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model.Plans.UsageByPlan)
+        {
+            <tr>
+                <td>@p.Key</td>
+                <td>@p.Value</td>
+            </tr>
+        }
+    </tbody>
+</table>
