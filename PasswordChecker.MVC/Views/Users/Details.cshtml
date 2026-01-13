@@ -1,0 +1,23 @@
+﻿@model PasswordChecker.MVC.Models.User.UserViewModel
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h2>User Details</h2>
+
+<table class="table table-bordered mt-3">
+    <tr><th>Email</th><td>@Model.Email</td></tr>
+    <tr><th>Age</th><td>@Model.Varsta</td></tr>
+    <tr><th>Gender</th><td>@Model.Gen</td></tr>
+    <tr><th>Status</th><td>@Model.Status</td></tr>
+    <tr><th>Role</th><td>@Model.Role</td></tr>
+    <tr><th>Balance</th><td>@Model.Balance</td></tr>
+</table>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+    Edit
+</a>
+<a asp-action="Index" class="btn btn-secondary">
+    Back
+</a>

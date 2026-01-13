@@ -6,7 +6,10 @@ using PasswordChecker.Server.Services.Interfaces;
 
 namespace PasswordChecker.MVC.Controllers
 {
-    [Authorize(Roles = "Admin")]
+[Authorize(
+    Roles = "ADMIN",
+    AuthenticationSchemes = "AdminCookie"
+)]
     public class PlansController : Controller
 
     {
@@ -174,7 +177,7 @@ namespace PasswordChecker.MVC.Controllers
         }
 
         // Mai jos trebuie de trecut pe API
-        [NonAction]
+        //[NonAction]
         public async Task<IActionResult> Select()
         {
             var plans = await _planService.GetAllAsync();
@@ -190,7 +193,7 @@ namespace PasswordChecker.MVC.Controllers
 
             return View(viewModels);
         }
-        [NonAction]
+        //[NonAction]
         [HttpPost]
         public async Task<IActionResult> Choose(Guid id)
         {

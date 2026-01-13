@@ -1,16 +1,54 @@
 ﻿@{
-    ViewData["Title"] = "Admin Panel";
+    ViewData["Title"] = "Dashboard";
 }
 
-<h1>Admin Panel</h1>
-<p>Selectați modulul pe care doriți să îl administrați:</p>
+<h2 class="mb-4">Dashboard</h2>
 
-<div style="margin-top:20px;">
-    <a asp-controller="Users" asp-action="Index" class="btn btn-primary">
-        Administrare Utilizatori
-    </a>
+<div class="row g-4">
 
-    <a asp-controller="Plans" asp-action="Index" class="btn btn-secondary" style="margin-left:10px;">
-        Administrare Planuri
-    </a>
+    <!-- USERS -->
+    <div class="col-md-4">
+        <div class="card shadow-sm border-start border-primary border-4">
+            <div class="card-body">
+                <h6 class="text-muted">Total Users</h6>
+                <h3>@ViewBag.UsersTotal</h3>
+                <small class="text-success">
+                    Active: @ViewBag.UsersActive
+                </small><br />
+                <small class="text-danger">
+                    Blocked: @ViewBag.UsersBlocked
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- PLANS -->
+    <div class="col-md-4">
+        <div class="card shadow-sm border-start border-success border-4">
+            <div class="card-body">
+                <h6 class="text-muted">Plans</h6>
+                <h3>@ViewBag.PlansTotal</h3>
+                <small class="text-success">
+                    Active: @ViewBag.PlansActive
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUBSCRIPTIONS -->
+    <div class="col-md-4">
+        <div class="card shadow-sm border-start border-warning border-4">
+            <div class="card-body">
+                <h6 class="text-muted">Subscriptions</h6>
+                <h3>@ViewBag.SubscriptionsTotal</h3>
+                <small class="text-success">
+                    Active: @ViewBag.SubscriptionsActive
+                </small><br />
+                <small class="text-muted">
+                    Inactive / Expired: @ViewBag.SubscriptionsInactive
+                </small>
+            </div>
+        </div>
+    </div>
+
 </div>

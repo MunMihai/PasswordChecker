@@ -1,0 +1,11 @@
+﻿namespace PasswordChecker.Server.DTOs.User
+{
+    public class UpdateUserDto
+    {
+        public Guid Id { get; set; }
+        public int? Varsta { get; set; }
+        public string? Gen { get; set; }
+        public string Status { get; set; } = string.Empty;
+        public string Role { get; set; } = string.Empty;
+    }
+}

@@ -4469,9 +4469,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.Server.csproj",
-      "projectName": "PasswordChecker.Server",
-      "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.Server.csproj",
+      "projectUniqueName": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
+      "projectName": "PasswordChecker.BL",
+      "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
       "packagesPath": "C:\\Users\\mmunt\\.nuget\\packages\\",
       "outputPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\obj\\",
       "projectStyle": "PackageReference",

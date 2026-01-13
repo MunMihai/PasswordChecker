@@ -1,0 +1,34 @@
+﻿@model PasswordChecker.MVC.Models.User.UserViewModel
+
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+<h2>Delete User</h2>
+
+<div class="alert alert-warning mt-3">
+    Are you sure you want to delete this user?
+</div>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td>@Model.Status</td>
+    </tr>
+    <tr>
+        <th>Role</th>
+        <td>@Model.Role</td>
+    </tr>
+</table>
+
+<form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

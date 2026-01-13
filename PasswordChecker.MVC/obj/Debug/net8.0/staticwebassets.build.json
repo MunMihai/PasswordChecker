@@ -1,15 +1,15 @@
 {
   "Version": 1,
-  "Hash": "u72zrPHa6BH1RO/MjU4W+yd9jg/3m6yJ8U2I3/1oGGE=",
+  "Hash": "P5YAxe1SGx/duR8oiOJ4ofnI6GG5Q8RXoeoWEhfsMWM=",
   "Source": "PasswordChecker.MVC",
   "BasePath": "_content/PasswordChecker.MVC",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.Server.csproj",
+      "Identity": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
       "Version": 2,
-      "Source": "PasswordChecker.Server",
+      "Source": "PasswordChecker.BL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",

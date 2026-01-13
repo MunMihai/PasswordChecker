@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "8scfsrLXTSQvkobTePnWjPJOp3oSNTvzc4Ik3tOBzzk=",
-  "Source": "PasswordChecker.Server",
-  "BasePath": "_content/PasswordChecker.Server",
+  "Hash": "Lma2PYy+ak56YWQPLVydx5c4NvjbIV/JAi9htGE3sxU=",
+  "Source": "PasswordChecker.BL",
+  "BasePath": "_content/PasswordChecker.BL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,0 +1,123 @@
+﻿@model IEnumerable<PasswordChecker.MVC.Models.Subscription.SubscriptionViewModel>
+
+@{
+    ViewData["Title"] = "Subscriptions";
+}
+
+<h2 class="mb-3">Subscriptions</h2>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-success">
+        + Create Subscription
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No subscriptions found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>User</th>
+                <th>Plan</th>
+                <th class="text-center">Start</th>
+                <th class="text-center">End</th>
+                <th class="text-center">Status</th>
+                <th class="text-center" style="width: 220px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.UserEmail</td>
+                    <td>@s.PlanName</td>
+                    <td class="text-center">@s.StartDate</td>
+                    <td class="text-center">@((s.EndDate.HasValue) ? s.EndDate.ToString() : "-")</td>
+                    <td class="text-center">
+                        <span class="badge @(s.Status == "ACTIVE" ? "bg-success" : "bg-secondary")">
+                            @s.Status
+                        </span>
+                    </td>
+                    <td class="text-center">
+                        <div class="btn-group btn-group-sm" role="group">
+                            <a asp-action="Edit"
+                               asp-route-id="@s.Id"
+                               class="btn btn-outline-warning">
+                                Edit
+                            </a>
+
+                            <button class="btn btn-outline-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#deactivateModal-@s.Id">
+                                Deactivate
+                            </button>
+
+                            <button class="btn btn-outline-danger"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal-@s.Id">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- DEACTIVATE MODAL -->
+                <div class="modal fade" id="deactivateModal-@s.Id" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Deactivate Subscription</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to deactivate this subscription?
+                            </div>
+                            <div class="modal-footer">
+                                <form asp-action="DeactivateConfirmed" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@s.Id" />
+                                    <button type="submit" class="btn btn-secondary">Deactivate</button>
+                                </form>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE MODAL -->
+                <div class="modal fade" id="deleteModal-@s.Id" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-danger text-white">
+                                <h5 class="modal-title">Delete Subscription</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <strong>This action is permanent.</strong><br />
+                                Are you sure you want to delete this subscription?
+                            </div>
+                            <div class="modal-footer">
+                                <form asp-action="DeleteConfirmed" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@s.Id" />
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </tbody>
+    </table>
+}

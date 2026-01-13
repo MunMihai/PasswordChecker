@@ -21,11 +21,12 @@ namespace PasswordChecker.MVC.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
             {
-                ModelState.AddModelError("", "Email obligatoriu");
+                ModelState.AddModelError("", "Email is required");
                 return View();
             }
 
@@ -33,13 +34,13 @@ namespace PasswordChecker.MVC.Controllers
 
             if (user == null || user.Status != "ACTIVE")
             {
-                ModelState.AddModelError("", "Utilizator inexistent sau inactiv");
+                ModelState.AddModelError("", "Invalid or inactive user");
                 return View();
             }
 
-            if (user.Role != "Admin")
+            if (user.Role != "ADMIN")
             {
-                ModelState.AddModelError("", "Nu aveți drepturi de administrator");
+                ModelState.AddModelError("", "Administrator privileges required");
                 return View();
             }
 
@@ -57,10 +58,12 @@ namespace PasswordChecker.MVC.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync("AdminCookie");
-            return RedirectToAction("Login");
+            return RedirectToAction(nameof(Login));
         }
 
         public IActionResult AccessDenied()

@@ -23,12 +23,14 @@ namespace PasswordChecker.MVC
                 options.Cookie.IsEssential = true;
             });
 
-            builder.Services.AddAuthentication("AdminCookie")
+            builder.Services
+                .AddAuthentication("AdminCookie")
                 .AddCookie("AdminCookie", options =>
                 {
                     options.LoginPath = "/Account/Login";
+                    options.LogoutPath = "/Account/Logout";
                     options.AccessDeniedPath = "/Account/AccessDenied";
-                    options.ExpireTimeSpan = TimeSpan.FromHours(2);
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
                     options.SlidingExpiration = true;
                 });
 
@@ -42,10 +44,12 @@ namespace PasswordChecker.MVC
 
             builder.Services.AddScoped<IPlanRepository, PlanRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 
 
             builder.Services.AddScoped<IPlanService, PlanService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
 
 
             var app = builder.Build();
