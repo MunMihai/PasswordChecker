@@ -8183,11 +8183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.MVC\\PasswordChecker.MVC.csproj",
+      "projectUniqueName": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\PasswordChecker.MVC.csproj",
       "projectName": "PasswordChecker.MVC",
-      "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.MVC\\PasswordChecker.MVC.csproj",
+      "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\PasswordChecker.MVC.csproj",
       "packagesPath": "C:\\Users\\mmunt\\.nuget\\packages\\",
-      "outputPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.MVC\\obj\\",
+      "outputPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8208,8 +8208,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.Server\\PasswordChecker.BL.csproj": {
-              "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.Server\\PasswordChecker.BL.csproj"
+            "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj": {
+              "projectPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj"
             }
           }
         }

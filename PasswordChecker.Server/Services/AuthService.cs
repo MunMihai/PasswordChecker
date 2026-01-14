@@ -14,18 +14,26 @@ namespace PasswordChecker.Server.Services;
 public class AuthService : IAuthService
 {
     private readonly IUserRepository _userRepository;
+    private readonly ISubscriptionRepository _subscriptionRepository;
+    private readonly IPlanRepository _planRepository;
     private readonly IConfiguration _configuration;
     private readonly ILogger<AuthService> _logger;
 
     public AuthService(
         IUserRepository userRepository,
         IConfiguration configuration,
-        ILogger<AuthService> logger)
+        ILogger<AuthService> logger,
+        ISubscriptionRepository subscriptionRepository,
+        IPlanRepository planRepository)   
     {
         _userRepository = userRepository;
         _configuration = configuration;
         _logger = logger;
+        _subscriptionRepository = subscriptionRepository;
+        _planRepository = planRepository; 
     }
+
+
 
     public async Task<TokenResponse> LoginAsync(LoginDto loginDto)
     {
@@ -103,6 +111,28 @@ public class AuthService : IAuthService
 
         await _userRepository.AddAsync(user);
         _logger.LogInformation("User registered successfully: {Email}", registerDto.Email);
+
+        var freePlan = await _planRepository.GetByNameAsync("FREE");
+        if (freePlan == null)
+        {
+            throw new InvalidOperationException("FREE plan not found. Please seed the database.");
+        }
+
+        // 2. Create subscription
+        var subscription = new Subscription
+        {
+            Id = Guid.NewGuid(),
+            UserId = user.Id,
+            PlanId = freePlan.Id,
+            StartDate = DateOnly.FromDateTime(DateTime.UtcNow),
+            EndDate = null, // or DateOnly.FromDateTime(DateTime.UtcNow.AddMonths(1))
+            Status = "ACTIVE"
+        };
+
+        await _subscriptionRepository.AddAsync(subscription);
+        _logger.LogInformation("Assigned FREE subscription to new user {Email}", user.Email);
+
+
 
         var token = GenerateJwtToken(user.Id, user.Email, user.Role);
         var expiresAt = DateTime.UtcNow.AddHours(24);

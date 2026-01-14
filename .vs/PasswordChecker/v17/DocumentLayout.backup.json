@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.data\\repositories\\interfaces\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C24FCF4B-3375-4DE7-88FC-9A7F25BDD253}|PasswordChecker.Data\\PasswordChecker.Data.csproj|solutionrelative:passwordchecker.data\\repositories\\interfaces\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|d:\\universitate\\master\\suceava\\ppaw\\passwordchecker\\passwordchecker.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE86915-3E29-48FD-915C-AEEF20B34514}|PasswordChecker.Server\\PasswordChecker.BL.csproj|solutionrelative:passwordchecker.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanRepository.cs",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\PlanRepository.cs",
+              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\PlanRepository.cs",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\PlanRepository.cs",
+              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\PlanRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T21:46:11.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPlanRepository.cs",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\IPlanRepository.cs",
+              "RelativeDocumentMoniker": "PasswordChecker.Data\\Repositories\\Interfaces\\IPlanRepository.cs",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Data\\Repositories\\Interfaces\\IPlanRepository.cs",
+              "RelativeToolTip": "PasswordChecker.Data\\Repositories\\Interfaces\\IPlanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T21:44:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PasswordChecker.Server\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\Services\\AuthService.cs",
+              "RelativeToolTip": "PasswordChecker.Server\\Services\\AuthService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwHMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T20:56:13.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -7,6 +7,7 @@ public interface IPlanRepository
 {
     Task<IEnumerable<Plan>> GetAllAsync();
     Task<Plan> GetByIdAsync(Guid id);
+    Task<Plan?> GetByNameAsync(string name);
     Task<Plan> AddAsync(Plan plan);
     Task<Plan> UpdateAsync(Plan plan);
     Task<bool> DeleteAsync(Guid id);

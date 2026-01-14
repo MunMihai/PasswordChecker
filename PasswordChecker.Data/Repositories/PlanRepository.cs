@@ -27,6 +27,11 @@ public class PlanRepository : IPlanRepository
         return await _context.Plans.FindAsync(id);
 
     }
+    public async Task<Plan?> GetByNameAsync(string name)
+    {
+        return await _context.Plans.FirstOrDefaultAsync(p => p.Name == name);
+    }
+
 
     public async Task<Plan> AddAsync(Plan plan)
     {

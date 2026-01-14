@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DN21ujh+vhI=",
+  "dgSpecHash": "6AugUJbuYUg=",
   "success": true,
-  "projectFilePath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.API\\PasswordChecker.API.csproj",
+  "projectFilePath": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.API\\PasswordChecker.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mmunt\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mmunt\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

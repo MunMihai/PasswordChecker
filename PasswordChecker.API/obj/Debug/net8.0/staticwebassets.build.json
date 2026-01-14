@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "KHJYAps+3qYDWTHfn27L/RAjlQVbbVl7K9UYUAMdcjA=",
+  "Hash": "lcWvkr0j6XQNmZTe6VIIwcnSijp4NuOVuUgDul5GlZQ=",
   "Source": "PasswordChecker.API",
   "BasePath": "_content/PasswordChecker.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker2\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
+      "Identity": "D:\\Universitate\\Master\\Suceava\\PPAW\\PasswordChecker\\PasswordChecker.Server\\PasswordChecker.BL.csproj",
       "Version": 2,
       "Source": "PasswordChecker.BL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

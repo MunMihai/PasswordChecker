@@ -73,7 +73,8 @@ public static class DbSeeder
                 Role = "ADMIN",
                 Balance = 1000.00m,
                 Varsta = 35,
-                Gen = "M"
+                Gen = "M",
+                PasswordHash = "$2a$11$rpfaCdUldatN3vHsuqNLG.JaEZ0Ytjoxx.CbsmEmY/w2Q9pnCwp4m" // password: 123123
             },
             new User
             {
