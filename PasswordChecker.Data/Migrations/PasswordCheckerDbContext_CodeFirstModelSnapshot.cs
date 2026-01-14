@@ -45,11 +45,17 @@ namespace PasswordChecker.Data.Migrations
                         .HasColumnType("int")
                         .HasColumnName("score");
 
+                    b.Property<Guid?>("SubscriptionId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("subscription_id");
+
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("user_id");
 
                     b.HasKey("Id");
+
+                    b.HasIndex(new[] { "SubscriptionId" }, "IX_PasswordChecks_SubscriptionId");
 
                     b.HasIndex(new[] { "UserId" }, "IX_PasswordChecks_UserId");
 
@@ -159,6 +165,11 @@ namespace PasswordChecker.Data.Migrations
                         .HasColumnType("nvarchar(10)")
                         .HasColumnName("gen");
 
+                    b.Property<string>("PasswordHash")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
+                        .HasColumnName("password_hash");
+
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -187,12 +198,19 @@ namespace PasswordChecker.Data.Migrations
 
             modelBuilder.Entity("PasswordChecker.Data.Models.PasswordCheck", b =>
                 {
+                    b.HasOne("PasswordChecker.Data.Models.Subscription", "Subscription")
+                        .WithMany("PasswordChecks")
+                        .HasForeignKey("SubscriptionId")
+                        .HasConstraintName("FK_PasswordChecks_Subscription");
+
                     b.HasOne("User", "User")
                         .WithMany("PasswordChecks")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("FK_PasswordChecks_User");
+
+                    b.Navigation("Subscription");
 
                     b.Navigation("User");
                 });
@@ -220,6 +238,11 @@ namespace PasswordChecker.Data.Migrations
             modelBuilder.Entity("PasswordChecker.Data.Models.Plan", b =>
                 {
                     b.Navigation("Subscriptions");
+                });
+
+            modelBuilder.Entity("PasswordChecker.Data.Models.Subscription", b =>
+                {
+                    b.Navigation("PasswordChecks");
                 });
 
             modelBuilder.Entity("User", b =>

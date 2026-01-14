@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PasswordChecker.Data.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
@@ -34,6 +34,10 @@ public partial class User
     [Column("gen")]
     [StringLength(10)]
     public string? Gen { get; set; }
+
+    [Column("password_hash")]
+    [StringLength(255)]
+    public string? PasswordHash { get; set; }
 
     public virtual ICollection<PasswordCheck> PasswordChecks { get; set; } = new List<PasswordCheck>();
     public virtual Subscription? Subscription { get; set; }

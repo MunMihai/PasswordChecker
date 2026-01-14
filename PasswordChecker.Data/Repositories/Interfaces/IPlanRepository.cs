@@ -1,4 +1,4 @@
-﻿using PasswordChecker.Data.Models;
+using PasswordChecker.Data.Models;
 
 
 namespace PasswordChecker.Data.Repositories.Interfaces;
@@ -13,5 +13,6 @@ public interface IPlanRepository
     Task<bool> PlanExistsAsync(Guid id);
     Task<bool> ExistsByNameAsync(string code, Guid? excludeId = null);
     Task<bool> HasActiveSubscriptionsAsync(Guid planId);
+    Task<bool> HasAnySubscriptionsAsync(Guid planId);
 
 }

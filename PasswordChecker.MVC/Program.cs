@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using PasswordChecker.Data.Context;
 using PasswordChecker.Data.Repositories;
 using PasswordChecker.Data.Repositories.Interfaces;
+using PasswordChecker.Data.SeedData;
 using PasswordChecker.Data.Services;
 using PasswordChecker.Server.Services;
 using PasswordChecker.Server.Services.Interfaces;
@@ -10,7 +11,7 @@ namespace PasswordChecker.MVC
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -39,13 +40,20 @@ namespace PasswordChecker.MVC
 
             builder.Services.AddDbContext<PasswordCheckerDbContext_CodeFirst>(options =>
                 options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection")
+                    builder.Configuration.GetConnectionString("DefaultConnection"),
+                    sqlServerOptions => sqlServerOptions.EnableRetryOnFailure()
                 ));
 
             builder.Services.AddScoped<IPlanRepository, PlanRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 
+
+            // Add Memory Cache
+            builder.Services.AddMemoryCache();
+
+            // Register Cache Service
+            builder.Services.AddSingleton<PasswordChecker.Server.Services.Interfaces.IMemoryCacheService, PasswordChecker.Server.Services.MemoryCacheService>();
 
             builder.Services.AddScoped<IPlanService, PlanService>();
             builder.Services.AddScoped<IUserService, UserService>();
@@ -75,6 +83,22 @@ namespace PasswordChecker.MVC
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            // Seed database
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<PasswordCheckerDbContext_CodeFirst>();
+                    await DbSeeder.SeedAsync(context);
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred while seeding the database.");
+                }
+            }
 
             app.Run();
         }

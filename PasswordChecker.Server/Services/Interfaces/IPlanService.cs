@@ -1,4 +1,4 @@
-﻿using PasswordChecker.Server.DTOs.Plan;
+using PasswordChecker.Server.DTOs.Plan;
 
 namespace PasswordChecker.Server.Services.Interfaces;
 
@@ -10,6 +10,7 @@ public interface IPlanService
     Task<PlanDto> UpdateAsync(UpdatePlanDto updatePlanDto);
     Task<bool> DeleteAsync(Guid id);
     Task<bool> CanDeleteAsync(Guid id);
+    Task<IEnumerable<string>> GetUsersUsingPlanAsync(Guid planId);
 
 
 }

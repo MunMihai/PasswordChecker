@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -35,4 +35,7 @@ public partial class Subscription
     [ForeignKey("UserId")]
     [InverseProperty("Subscription")]
     public virtual User User { get; set; } = null!;
+
+    [InverseProperty("Subscription")]
+    public virtual ICollection<PasswordCheck> PasswordChecks { get; set; } = new List<PasswordCheck>();
 }

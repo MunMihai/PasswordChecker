@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PasswordChecker.Data.Context;
 using PasswordChecker.Data.Models;
 using PasswordChecker.Data.Repositories.Interfaces;
@@ -32,6 +32,22 @@ namespace PasswordChecker.Data.Repositories
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
 
+        public async Task<Subscription?> GetActiveByUserIdAsync(Guid userId)
+        {
+            return await _context.Subscriptions
+                .Include(s => s.Plan)
+                .FirstOrDefaultAsync(s => s.UserId == userId && s.Status == "ACTIVE");
+        }
+
+        public async Task<IEnumerable<Subscription>> GetByPlanIdAsync(Guid planId)
+        {
+            return await _context.Subscriptions
+                .Include(s => s.User)
+                .Include(s => s.Plan)
+                .Where(s => s.PlanId == planId)
+                .ToListAsync();
+        }
+
         public async Task<Subscription> AddAsync(Subscription subscription)
         {
             _context.Subscriptions.Add(subscription);
@@ -51,6 +67,16 @@ namespace PasswordChecker.Data.Repositories
             var subscription = await _context.Subscriptions.FindAsync(id);
             if (subscription == null)
                 return false;
+
+            // Set SubscriptionId to null for all related PasswordChecks
+            var relatedPasswordChecks = await _context.PasswordChecks
+                .Where(pc => pc.SubscriptionId == id)
+                .ToListAsync();
+
+            foreach (var passwordCheck in relatedPasswordChecks)
+            {
+                passwordCheck.SubscriptionId = null;
+            }
 
             _context.Subscriptions.Remove(subscription);
             await _context.SaveChangesAsync();

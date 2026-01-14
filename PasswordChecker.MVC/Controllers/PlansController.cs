@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PasswordChecker.MVC.Models.Plan;
 using PasswordChecker.Server.DTOs.Plan;
@@ -145,7 +145,14 @@ namespace PasswordChecker.MVC.Controllers
             if (plan == null)
                 return NotFound();
 
-            ViewBag.CanDelete = await _planService.CanDeleteAsync(id.Value);
+            var canDelete = await _planService.CanDeleteAsync(id.Value);
+            ViewBag.CanDelete = canDelete;
+
+            if (!canDelete)
+            {
+                var users = await _planService.GetUsersUsingPlanAsync(id.Value);
+                ViewBag.UsersUsingPlan = users.ToList();
+            }
 
             var viewModel = new PlanViewModel
             {
@@ -167,13 +174,21 @@ namespace PasswordChecker.MVC.Controllers
             {
                 await _planService.DeleteAsync(id);
                 TempData["SuccessMessage"] = "Plan deleted successfully!";
+                return RedirectToAction(nameof(Index));
             }
             catch (InvalidOperationException ex)
             {
-                TempData["ErrorMessage"] = ex.Message;
-            }
+                // Dacă planul nu poate fi șters, redirecționăm înapoi la pagina Delete cu informațiile
+                var plan = await _planService.GetByIdAsync(id);
+                if (plan == null)
+                {
+                    return NotFound();
+                }
 
-            return RedirectToAction(nameof(Index));
+                var users = await _planService.GetUsersUsingPlanAsync(id);
+                TempData["ErrorMessage"] = "Planul nu poate fi șters deoarece este utilizat de alți utilizatori.";
+                return RedirectToAction(nameof(Delete), new { id });
+            }
         }
     }
 }

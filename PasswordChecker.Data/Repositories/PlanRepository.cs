@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PasswordChecker.Data.Context;
 using PasswordChecker.Data.Models;
 using PasswordChecker.Data.Repositories.Interfaces;
@@ -73,5 +73,11 @@ public class PlanRepository : IPlanRepository
     {
         return await _context.Subscriptions
             .AnyAsync(s => s.PlanId == planId && s.Status == "ACTIVE");
+    }
+
+    public async Task<bool> HasAnySubscriptionsAsync(Guid planId)
+    {
+        return await _context.Subscriptions
+            .AnyAsync(s => s.PlanId == planId);
     }
 }

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PasswordChecker.Data.Models;
 
 namespace PasswordChecker.Data.Context;
@@ -29,6 +29,7 @@ public partial class PasswordCheckerDbContext_CodeFirst : DbContext
             entity.Property(e => e.CreatedAt).HasDefaultValueSql("(getdate())");
 
             entity.HasOne(d => d.User).WithMany(p => p.PasswordChecks).HasConstraintName("FK_PasswordChecks_User");
+            entity.HasOne(d => d.Subscription).WithMany(p => p.PasswordChecks).HasConstraintName("FK_PasswordChecks_Subscription");
         });
 
         modelBuilder.Entity<Subscription>(entity =>
